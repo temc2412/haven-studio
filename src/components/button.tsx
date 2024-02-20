@@ -1,6 +1,11 @@
 import React from "react";
 
-function Button(props) {
+function Button(props: {
+  buttonType: any;
+  buttonClass: any;
+  onClick: any;
+  children: any;
+}) {
   const { buttonType, buttonClass, onClick, children } = props;
 
   const type = buttonType === "submit" ? "submit" : "reset";

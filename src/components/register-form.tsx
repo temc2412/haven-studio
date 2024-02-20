@@ -30,12 +30,14 @@ export default function RegisterForm() {
           <Button
             buttonType="submit"
             buttonClass="bg-purple-400 hover:bg-purple-700"
+            onClick="VideoPlaybackQuality()"
           >
             REGISTRARSE
           </Button>
           <Button
             buttonType="reset"
             buttonClass="bg-gray-500 hover:bg-gray-700"
+            onClick="VideoPlaybackQuality()"
           >
             LIMPIAR
           </Button>

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  /* Reset de estilos */
+  border: initial;
+  border-bottom: 1px solid rgb(156 163 175);
+  outline: initial;
+  background: initial;
+  /* Otros estilos personalizados */
+  /* Agrega aquí tus estilos personalizados */
+}
